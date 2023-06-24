@@ -1,0 +1,77 @@
+.gradient-background {
+    background: linear-gradient(300deg, rgb(154, 197, 244),  rgb(167, 236, 238),rgb(255, 238, 187));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+    
+.first
+{
+    background-color: rgb(167, 236, 238);
+    
+}
+
+.second
+{
+    background-color:#ffffff; ;
+}
+
+.display-4
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+
+}
+.lead
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.picture
+{
+
+    border-radius: 50%;
+
+
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.containe
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    
+}
+.first_title
+{
+    font-size: 30px;
+}
+.first_para
+{
+    font-size: 20px;
+}
+.second_title
+{
+    font-size: 30px;
+}
+.second_para
+{
+    font-size: 20px;
+}
